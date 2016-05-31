@@ -13,7 +13,7 @@ Pour réaliser ce projet vous aurez besoin des éléments suivants :
 <h2>Circuit pour téléverser le programme </h2>
 La programmation de l'ESP-01 se déroule en deux temps. Branchez tout d'abord votre ESP comme ceci pour que l'ESP-01 démarre en mode bootload. Avant de téléverser le programme, modifiez les variables ssid et password de votre réseau.
 <img align="center" src="https://github.com/projetsdiy/esp-01-WiFi-Scanner-ESP-01-OLED-I2C-Display/blob/master/ESP-01-ESP8266-wiring-flashing-mode_.jpg" style="max-width:100%;">
-
+Pour ceux qui écouvrent l'ESP8266 (et l'ESP-01), vous pouvez consulter cet article qui explique comment flasher le firmware d'origine http://www.projetsdiy.fr/esp-01-esp8266-flasher-firmware-origine/
 <h2>Brancher l'écran OLED</h2>
 Maintenant que le code a été téléversé dans l'ESP-01, on peut brancher l'écran OLED sur l'ESP-01 comme ceci
 - SDA <--> GPIO0
