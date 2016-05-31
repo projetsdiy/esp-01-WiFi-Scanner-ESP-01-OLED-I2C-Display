@@ -9,8 +9,10 @@ Pour réaliser ce projet vous aurez besoin des éléments suivants :
 - Des Jumpers Dupont
 - Un bouton poussoir (Reset optionnel)
 - Une résistance 220 ohms (optionnel)
+<br></br>
 <h2>Circuit pour téléverser le programme </h2>
 La programmation de l'ESP-01 se déroule en deux temps. Branchez tout d'abord votre ESP comme ceci pour que l'ESP-01 démarre en mode bootload. Avant de téléverser le programme, modifiez les variables ssid et password de votre réseau.
+<img align="center" src="https://github.com/projetsdiy/esp-01-WiFi-Scanner-ESP-01-OLED-I2C-Display/blob/master/ESP-01-ESP8266-wiring-flashing-mode_.jpg" style="max-width:100%;">
 
 <h2>Brancher l'écran OLED</h2>
 Maintenant que le code a été téléversé dans l'ESP-01, on peut brancher l'écran OLED sur l'ESP-01 comme ceci
@@ -18,4 +20,7 @@ Maintenant que le code a été téléversé dans l'ESP-01, on peut brancher l'é
 - SCK <--> GPIO2
 - GND <--> GND
 - VCC <--> 3.3V
+<img align="center" src="https://github.com/projetsdiy/esp-01-WiFi-Scanner-ESP-01-OLED-I2C-Display/blob/master/ESP-01 ESP8266 OLED i2C DISPLAY ECRAN_bb.jpg" style="max-width:100%;">
 A la mise sous tension de l'ESP, le programme de scanner WiFi démarre et affiche après quelques secondes le réseau sur lequel l'ESP-01 est connecté, l'adresse ip de ce dernier ainsi que la force du signal.
+<img align="center" src="https://github.com/projetsdiy/esp-01-WiFi-Scanner-ESP-01-OLED-I2C-Display/blob/master/esp-01 esp8266 oled i2c display wifi scanner.gif" style="max-width:100%;">
+
